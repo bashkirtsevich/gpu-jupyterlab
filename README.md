@@ -22,6 +22,9 @@ docker run --gpus all -d -p 8888:8888 bashkirtsevich/jupyter-gpu:latest
 ```
 
 P.S. Don't forget to mount any filder for workspace.
+```
+docker run --gpus all -d -p 8888:8888 -v ~/workspace:/src bashkirtsevich/jupyter-gpu:latest
+```
 
 ## Lib versions
 
