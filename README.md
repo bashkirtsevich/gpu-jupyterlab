@@ -14,14 +14,14 @@ docker build -t jupyter-gpu .
 docker run --gpus all -d -p 8888:8888 jupyter-gpu
 ```
 
-## Download public image
+### Download public image
 
 ```
 docker pull bashkirtsevich/jupyter-gpu:latest
 docker run --gpus all -d -p 8888:8888 bashkirtsevich/jupyter-gpu:latest
 ```
 
-P.S. Don't forget to mount any filder for workspace.
+#### With local folder mount
 ```
 docker run --gpus all -d -p 8888:8888 -v ~/workspace:/src bashkirtsevich/jupyter-gpu:latest
 ```
