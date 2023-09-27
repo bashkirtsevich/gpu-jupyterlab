@@ -1,0 +1,12 @@
+jupyterlab
+opencv-python
+Cython
+pandas
+scipy
+scikit-learn
+Pillow
+nbimporter
+matplotlib
+transformers
+accelerate
+sentencepiece
