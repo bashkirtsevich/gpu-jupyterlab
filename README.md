@@ -45,4 +45,6 @@ pandas==2.0.3
 Pillow==9.3.0
 scikit-learn==1.3.0
 scipy==1.10.1
+transformers==4.33.3
+sentencepiece==0.1.99
 ```
