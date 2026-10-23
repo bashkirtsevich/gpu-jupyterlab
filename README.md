@@ -29,22 +29,14 @@ docker run --gpus all -d -p 8888:8888 -v ~/workspace:/src bashkirtsevich/jupyter
 ## Lib versions
 
 ```
-torch==2.0.1+cu118
-torchaudio==2.0.2+cu118
-torchvision==0.15.2+cu118
-
-Cython==3.0.2
-jupyterlab==4.0.5
-jupyterlab-pygments==0.2.2
-jupyterlab_server==2.24.0
-matplotlib==3.7.2
-matplotlib-inline==0.1.6
-nbimporter==0.3.4
-opencv-python==4.8.0.76
-pandas==2.0.3
-Pillow==9.3.0
-scikit-learn==1.3.0
-scipy==1.10.1
-transformers==4.33.3
-sentencepiece==0.1.99
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+matplotlib==3.9.1
+scikit-learn==1.5.1
+transformers==4.44.2
+accelerate==0.33.0
+sentencepiece==0.2.0
+opencv-python-headless==4.10.0.84
+jupyterlab==4.2.5
 ```
